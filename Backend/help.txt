@@ -1,0 +1,57 @@
+conda activate ashabbenv
+python manage.py runserver 192.168.43.58:8000
+myenv\scripts\activate.bat
+python manage.py runserver
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+django
+djangorestframework
+markdown
+djangorestframework-simplejwt
+
+src
+https://stackoverflow.com/questions/14838128/django-rest-framework-token-authentication
+
+
+Toekn Authentication
+=====================================
+1.
+settings.py
+
+INSTALLED_APPS = [
+    .
+    .
+    .
+    'rest_framework.authtoken',
+]
+---
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES':('rest_framework.permissions.IsAuthenticated',) ,
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    )
+}
+2.
+project > urls.py
+
+from rest_framework.authtoken.views import obtain_auth_token
+
+urlpatterns = [
+path('token-auth/', obtain_auth_token, name='api_token_auth'),
+]
+3.
+app > views.py
+
+from rest_framework.permissions import IsAuthenticated
+from rest_framework import authentication
+
+authentication_classes = (authentication.TokenAuthentication,)
+permission_classes = (IsAuthenticated,)
+=====================================
+
+
+pip install httpie
+curl -X POST http://127.0.0.1:8000/token-auth/ username="admin" password="12345"

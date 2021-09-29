@@ -1,0 +1,39 @@
+name: doctorapp
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_form_builder: ^6.1.0+1
+  get: ^4.3.8
+  http: ^0.13.3
+  syncfusion_flutter_charts: ^19.2.62
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/no_internet.png
+    - assets/images/profile.png
+    - assets/images/fill2.png
+    - assets/images/sheet.png
+    - assets/images/empty.png
+    - assets/images/down.png
