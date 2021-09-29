@@ -1,6 +1,6 @@
 
 ***
-# Django-Flutter-CRUD-operations-DoctorApp
+# Django Flutter CRUD Operations - DoctorApp
 
 ***
 # About
