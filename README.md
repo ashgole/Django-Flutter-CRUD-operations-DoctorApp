@@ -1,7 +1,6 @@
 <h3><b>About</b></h3>
 
 This is Full stack Applcaition. Frontend is developed using `Flutter` and Backend is `Django`.
-
 This is doctor demo application where patients their health data.
 
 <h3><b>Tags</b></h3>
@@ -9,7 +8,16 @@ This is doctor demo application where patients their health data.
 `flutter` `djanog` `rest framework`
 
 <h3><b>Screenshots</b></h3>
-![Frontend](https://github.com/ashgole/Django-project-online-shopping/blob/main/screenshots/home.PNG)
+
+![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/1.png)
+![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/2.png)
+![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/3.png)
+![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/4.png)
+![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/5.png)
+![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/6.png)
+![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/7.png)
+
+
 
 ```
 Django commands
