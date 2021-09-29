@@ -1,13 +1,20 @@
-<h3><b>About</b></h3>
+
+***
+# Django-Flutter-CRUD-operations-DoctorApp
+
+***
+# About
 
 This is Full stack Applcaition. Frontend is developed using `Flutter` and Backend is `Django`.
 This is doctor demo application where patients their health data.
 
-<h3><b>Tags</b></h3>
+***
+# Tags
 
 `flutter` `djanog` `rest framework`
 
-<h3><b>Screenshots</b></h3>
+***
+# Screenshots
 
 ![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/1.png)
 ![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/2.png)
@@ -17,8 +24,8 @@ This is doctor demo application where patients their health data.
 ![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/6.png)
 ![text](https://github.com/ashgole/Django-Flutter-Application-CRUD-operations-DoctorApp/blob/master/screenshots/7.png)
 
-
-
+***
+# Help
 ```
 Django commands
 
