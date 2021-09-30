@@ -5,13 +5,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 #FIXME
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4)dlehs-0g(ad9%h5h64o@$_d$gz@0ud+(m!5s8n9e55ob-9-^'
+SECRET_KEY = ''
 
 DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '192.168.43.58'
+ 
 ]
 
 
@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     # Third-Party Apps
     'rest_framework',
     'rest_framework.authtoken',
-    # 'rest_framework_simplejwt',
+     'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
