@@ -11,7 +11,7 @@ This is doctor demo application where patients their health data.
 ***
 # Tags
 
-`flutter` `djanog` `rest framework`
+`flutter` `djanog` `rest framework` `REST API` `permissions` `authentication` `authorization` `ORM`
 
 ***
 # Screenshots
