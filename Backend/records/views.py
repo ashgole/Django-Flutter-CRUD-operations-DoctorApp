@@ -1,12 +1,5 @@
-# conda activate ashabbenv
-# myenv\scripts\activate.bat
-# python manage.py runserver
-# python manage.py runserver 192.168.43.58:8000
-
-
 from django.shortcuts import render
 
-# Create your views here.
 from rest_framework import views,response,status,viewsets,permissions
 from . import models as RecordsModel
 from . import serializers as RecordsModelSerializer
